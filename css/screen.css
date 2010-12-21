@@ -1,0 +1,336 @@
+/* screen.css--styles for the screen */
+
+
+
+body {
+background-image: url('../images/background_6.jpg');
+background-repeat: repeat-x;
+}
+
+html {
+background-color: #B5B5B5;
+}
+
+.construction p {/*To be employed duing site construction*/
+font-size: 250%;
+color: red;
+font-weight: bold;
+}
+
+
+
+/* Header Styles */
+
+div#header {
+position: relative;
+width: 940px;
+padding-left: 10px;
+padding-bottom: 10px;
+background-color: #50A6C2;
+}
+
+div#header a {
+text-decoration: none;
+color: white;
+}
+
+div#header h1 {
+font-size: 300%;
+font-family: verdana, arial, "sans serif";
+color: white;
+}
+
+div#header h1 + h2 {
+padding-top: 0px;
+font-size: 150%;
+font-family: verdana, arial, "sans serif";
+color: white;
+}
+
+
+
+/* Navigation Sytles */
+
+div#navigation {
+position: absolute;
+width: 130px;
+padding-left: 10px;
+background-color: #e3e3e3;
+font-family: arial, "sans serif";
+line-height: 2.0;
+font-weight: bold;
+}
+
+div#accessible_nav {
+position: absolute;
+margin-left: -10000px;
+}
+
+
+div#cv_navbar {
+position: relative;
+margin-left: 160px;
+height: 30px;
+background-color: #50A6C2;
+}
+
+div#cv_navbar li {
+display: inline;
+position: relative;
+margin: 2px;
+text-align: right;
+padding-right: 5px;
+padding-left: 5px;
+background-color: #50A6C2;
+color: white;
+font-size: small;
+font-family: calibri, "arial narrow", arial, "sans serif";
+}
+
+div#cv_navbar li.active {
+font-weight: bold;
+}
+
+div#cv_navbar li + li {
+padding-left: 7px;
+border-left: 2px solid;
+}
+
+div#cv_navbar a {
+color: white
+}
+
+
+
+
+
+/* Anchor Tag Styles */
+
+h2 a {
+text-decoration: none;
+color: #50A6C2;
+}
+
+a {
+text-decoration: none;
+color: #A020F0;
+}
+
+a:hover,
+a:active,
+a:focus {
+text-decoration: underline;	
+}
+
+
+
+
+
+
+
+/* Page Styles */
+
+div#page {
+width: 950px;
+margin-left: auto;
+margin-right: auto;
+background-color: #e3e3e3;
+}
+
+div#intro {
+position: relative;
+width: 770px;
+margin-left: 160px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+
+div#intro p {
+font-weight: bold;
+}
+
+div#content_wide {
+position: relative;
+width: 770px;
+min-height: 500px;
+margin-top: 0px;
+padding-bottom: 20px;
+margin-left: 160px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: #e3e3e3;
+}
+
+div#content_wide li {
+list-style-type: circle;
+line-height: 2.5;
+font-family: "palatino linotype", garamond, serif;
+}
+
+div#narrow_content {
+position: relative;
+width: 520px;
+min-height: 550px; /*adjust min-height if additional images run into the footer in #right_image_area*/
+margin-top: 0px;
+margin-bottom: 10px;
+margin-left: 160px;
+padding-left: 10px;
+background-color: #e3e3e3;
+}
+
+div#right_image_area { /*can be grouped with #narrow_content*/
+position: absolute;
+margin-left: 700px;
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+width: 230px;
+background-color: #e3e3e3;
+}
+
+div#rss_feed_area { /*can be grouped with #narrow_content*/
+position: absolute;
+margin-left: 700px;
+padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+width: 230px;
+background-color: #d6d6d6;
+}
+
+div#footer {
+position: relative;
+padding-top:10px;
+padding-left: 10px;
+width: 940px;
+min-height: 25px;
+background-color: #50A6C2;
+color: white;
+font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+}
+
+
+
+/* Text Styles */
+
+
+
+
+p {
+color: #383838;
+line-height: 1.5;
+font-family: "Palatino Linotype", garamond, "Times New Roman", serif; 
+}
+
+p.twitter {
+color: #383838;
+line-height: 1.1;
+font-size: 80%;
+font-family: verdana, garamond, "Times New Roman", serif;
+margin-top: 12px;
+padding-bottom: 3px;
+padding-left: 3px;
+border-left: 5px solid;
+border-bottom: 1px solid;
+border-color: #50A6C2;
+}
+
+p.twitdate {
+color: #383838;
+line-height: 1.1;
+font-size: small;
+font-family: calibri, "arial narrow", arial, "sans serif";
+text-align: right;
+margin-bottom: 20px;
+padding-right: 3px;
+border-right: 1px solid;
+border-color: #50A6C2;
+}
+	
+h2 {
+padding-top: 20px;
+padding-bottom: 5px;
+font-size: 150%;
+color: #50A6C2;
+font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+}
+
+h3 {
+padding-bottom: 5px;
+font-size: 100%;
+color: #50A6C2;
+font-weight: bold;
+font-family: helvetica, arial, sans-serif;
+}
+
+strong {
+font-weight: bold;
+}
+
+cite {
+font-style: italic;
+}
+
+
+
+
+/* Image Styles */
+
+div#content_wide img {
+border: 1px solid;
+border-color: black;
+}
+
+div#content_wide img.single_image {
+position: relative;
+margin-left: 256px;
+border: 1px solid;
+border-color: black;
+}
+
+div#content_wide img.adobe {
+border: none;
+padding-top: 2px;
+padding-right: 2px;
+}
+
+div#footer img {
+padding-right: 5px;
+}
+
+
+
+
+/* Design Image Gallery Styles */
+
+div#gallery_nav .left {
+position: absolute;
+margin-left: 5px;
+}
+
+div#gallery_nav .right {
+position: absolute;
+margin-left: 745px;
+}
+
+div#gallery_nav p {
+position: relative;
+width: 530px;
+margin-left: 210px;
+text-align: center;
+}
+
+div#gallery_return {
+position: relative;
+text-align: center;
+margin-top: 20px;
+font-family: arial, "sans serif";
+font-weight: bold;
+}
+
+div#gallery_img {
+margin-top: 60px;
+text-align: center;
+}
