@@ -339,6 +339,15 @@ div#education {
 margin-top: 10px;
 }
 
+.hidden {
+display: none;
+}
+
+.unhidden {
+display: block;
+}
+
+
 h1.section_break {
 font-size: 200%;
 color: white;
