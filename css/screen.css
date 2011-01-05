@@ -109,6 +109,11 @@ text-decoration: none;
 color: #50A6C2;
 }
 
+h3 a {
+text-decoration: none;
+color: #50A6C2;
+}
+
 a {
 text-decoration: none;
 color: #A020F0;
