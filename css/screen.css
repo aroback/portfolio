@@ -363,6 +363,19 @@ h1.section_break a {
 color: white;
 }
 
-img.show {
+img.doc {
 padding-right: 5px;
+}
+
+ul {
+padding-left: 50px;
+}
+
+li {
+line-height: 2.0;
+}
+
+li a {
+text-decoration: none;
+color: #50A6C2;
 }
