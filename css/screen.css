@@ -363,3 +363,6 @@ h1.section_break a {
 color: white;
 }
 
+img.show {
+padding-right: 5px;
+}
