@@ -394,3 +394,8 @@ margin-left: -45px;
 div#navigation ul {
 margin-left: -50px;
 }
+
+p.note {
+color: black;
+font-style: italic;
+}
