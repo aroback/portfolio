@@ -343,18 +343,10 @@ margin-top: 60px;
 text-align: center;
 }
 
-/* CV styles */
+/* CV styles--1/5/10--why are there h1's anyway? change those.  */
 
 div#education {
 margin-top: 10px;
-}
-
-.hidden {
-display: none;
-}
-
-.unhidden {
-display: block;
 }
 
 h1.section_break {
@@ -368,6 +360,17 @@ h1.section_break a {
 color: white;
 }
 
+/* styles for javascript unhide funciton */
+
+.hidden {
+display: none;
+}
+
+.unhidden {
+display: block;
+}
+
+/* a variety of styles and fixes for the quals page */
 img.doc {
 padding-right: 5px;
 }
@@ -387,6 +390,17 @@ text-decoration: none;
 color: #50A6C2;
 }
 
+li.container {
+padding-bottom: 0px;
+}
+
+p.note {
+color: black;
+font-style: italic;
+}
+
+/* these fix the styles on the nav that result from the quals page styles */
+
 div#cv_navbar ul {
 margin-left: -45px;
 }
@@ -395,7 +409,3 @@ div#navigation ul {
 margin-left: -50px;
 }
 
-p.note {
-color: black;
-font-style: italic;
-}
