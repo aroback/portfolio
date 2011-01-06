@@ -59,6 +59,10 @@ line-height: 2.0;
 font-weight: bold;
 }
 
+div#navigation li {
+padding-bottom: 0px;
+}
+
 div#accessible_nav {
 position: absolute;
 margin-left: -10000px;
@@ -79,6 +83,7 @@ margin: 2px;
 text-align: right;
 padding-right: 5px;
 padding-left: 5px;
+padding-bottom: 0px;
 background-color: #50A6C2;
 color: white;
 font-size: small;
@@ -372,7 +377,9 @@ padding-left: 50px;
 }
 
 li {
-line-height: 2.0;
+padding-bottom: 15px;
+padding-left: 21px;
+text-indent: -21px;
 }
 
 li a {
