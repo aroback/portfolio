@@ -65,31 +65,9 @@ margin-left: -10000px;
 
 
 div#cv_navbar {
-position: relative;
-margin-left: 160px;
-height: 30px;
-background-color: #50A6C2;
+display: none;
 }
 
-div#cv_navbar li {
-display: inline;
-position: relative;
-margin: 2px;
-text-align: right;
-padding-left: 5px;
-background-color: #50A6C2;
-color: white;
-font-family: calibri, "sans serif";
-}
-
-div#cv_navbar li + li {
-padding-left: 7px;
-border-left: 2px solid;
-}
-
-div#cv_navbar a {
-color: white
-}
 
 
 
@@ -251,7 +229,59 @@ padding-top: 2px;
 padding-right: 2px;
 }
 
+/* CV styles*/
 
+h1.section_break {
+font-size: 200%;
+font-family: helvetica, arial, sans-serif;
+margin-top: 30px;
+text-align: right;
+border-right: 1px solid;
+border-color: #50A6C2;
+padding-right: 5px;
+}
+
+div#education {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#teach {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#tutor {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#conf {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#professional {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#tech {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
 
 
 /* Design Image Gallery Styles */
