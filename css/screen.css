@@ -349,19 +349,56 @@ text-align: center;
 
 /* CV styles--1/5/10--why are there h1's anyway? change those.  */
 
-div#education {
-margin-top: 10px;
-}
-
 h1.section_break {
 font-size: 200%;
-background-color: gray;
 font-family: helvetica, arial, sans-serif;
-padding-left: 5px;
+margin-top: 30px;
+text-align: right;
+border-right: 1px solid;
+border-color: #50A6C2;
+padding-right: 5px;
 }
 
-h1.section_break a {
-color: white;
+div#education {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#teach {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#tutor {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#conf {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#professional {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
+div#tech {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
 }
 
 /* styles for javascript unhide funciton */
