@@ -79,7 +79,6 @@ function twitter() {
 			$i < 5;
 			$item = $feed->get_item($i);
 			$tweet = substr($item->get_title(), 15);
-			$tweet = substr(addslashes(html_entity_decode($item->get_title())), 15);
 		$tweetdate = $item->get_date('F j');
 		$tweetday = $item->get_date('j');
 		$ksd = date('j');
@@ -87,7 +86,8 @@ function twitter() {
 		  else if ($tweetday==($ksd-1)) { $tweetdate = "yesterday"; }
 		  else { $tweetdate = "On " . $tweetdate; }
 		$tweettime = $item->get_date('g\:i a');
-		
+			
+			
 		$twsearch = array(
 		'%((www\.|(http|https)+\:\/\/)[_.a-zA-Z0-9-]+\.[a-zA-Z0-9\/_:@=.+?,##\%&~-]*[^.|\'|\# |!|\(|?|,| |>|<|;|\)])%',
 				  '|@([\w_]+)|',
@@ -99,7 +99,6 @@ function twitter() {
 		  '<a href="http://twitter.com/search?q=%23$1">#$1</a>'
 		);
 		$tweet = preg_replace($twsearch, $twreplace, $tweet);
-			
 			print "<p class=\"twitter\">".$tweet."</p><p class=\"twitdate\">".$tweetdate." at ".$tweettime."</p>";
 			}
 			}
