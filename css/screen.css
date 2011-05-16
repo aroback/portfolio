@@ -173,8 +173,12 @@ background-color: #e3e3e3;
 
 div#content_wide li {
 list-style-type: circle;
-line-height: 2.5;
+line-height: 1.0;
 font-family: "palatino linotype", garamond, serif;
+}
+
+div#content_wide p + ul {
+padding-top: 20px;
 }
 
 div#narrow_content {
