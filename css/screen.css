@@ -94,10 +94,6 @@ font-size: small;
 font-family: calibri, "arial narrow", arial, "sans serif";
 }
 
-div#cv_navbar li.active {
-font-weight: bold;
-}
-
 div#cv_navbar li + li {
 padding-left: 7px;
 border-left: 2px solid;
