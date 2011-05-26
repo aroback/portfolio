@@ -7,5 +7,6 @@
 		<li><a href="../projects/">Other Projects</a></li>
 		<li><a href="../about/">About Me</a></li>
 		<li><a href="../quals">Quals</a></li>
+		<li><a href="http://blog.andrewroback.com">Blog</a>
 	</ul>
 </div>
