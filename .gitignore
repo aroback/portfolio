@@ -1,0 +1,6 @@
+# Docs to ignore #
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.pdf
