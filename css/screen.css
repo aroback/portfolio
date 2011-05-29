@@ -292,8 +292,9 @@ font-style: italic;
 
 div#content_wide img {
 margin-right: -5px;
+margin-bottom: -5px;
 border: 2px solid;
-border-color: grey;
+border-color: white;
 }
 
 div#content_wide img.single_image {
