@@ -291,8 +291,9 @@ font-style: italic;
 /* Image Styles */
 
 div#content_wide img {
-border: 1px solid;
-border-color: black;
+margin-right: -5px;
+border: 2px solid;
+border-color: grey;
 }
 
 div#content_wide img.single_image {
