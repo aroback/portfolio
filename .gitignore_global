@@ -12,3 +12,7 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+*.doc
+*.xls
+*.pdf
+
