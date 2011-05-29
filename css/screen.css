@@ -314,7 +314,9 @@ div#footer img {
 padding-right: 5px;
 }
 
-
+div#content_wide img.filler {
+border: 0px;
+}
 
 
 /* Design Image Gallery Styles */
