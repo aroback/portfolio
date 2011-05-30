@@ -156,7 +156,9 @@ padding-bottom: 10px;
 }
 
 div#intro p {
-font-weight: bold;
+color: #383838;
+line-height: 1.5;
+font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
 }
 
 div#content_wide {
