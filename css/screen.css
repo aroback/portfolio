@@ -78,7 +78,17 @@ position: relative;
 margin-left: 160px;
 height: 30px;
 background-color: #50A6C2;
+}div#footer {
+position: absolute;
+margin-left: 157px;
+margin-top: -10px;
+padding-top:10px;
+padding-left: 10px;
+width: 940px;
+min-height: 25px;
+background-color: #50A6C2;
 }
+
 
 div#cv_navbar li {
 display: inline;
@@ -106,7 +116,8 @@ color: white
 
 
 
-
+margin-left: auto;
+margin-right: auto;
 /* Anchor Tag Styles */
 
 h2 a {
@@ -188,7 +199,6 @@ position: relative;
 width: 520px;
 min-height: 550px; /*adjust min-height if additional images run into the footer in #right_image_area*/
 margin-top: 0px;
-margin-bottom: 10px;
 margin-left: 160px;
 padding-left: 10px;
 background-color: #e3e3e3;
@@ -215,15 +225,17 @@ background-color: #d6d6d6;
 }
 
 div#footer {
-position: relative;
+position: absolute;
+margin-top: 0px;
 padding-top:10px;
 padding-left: 10px;
 width: 940px;
 min-height: 25px;
 background-color: #50A6C2;
-color: white;
-font-family: "Palatino Linotype", garamond, "Times New Roman", serif;
+margin-left: auto;
+margin-right: auto;
 }
+
 
 
 
