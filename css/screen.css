@@ -320,8 +320,7 @@ border-color: black;
 
 div#content_wide img.adobe {
 border: none;
-padding-top: 2px;
-padding-right: 2px;
+padding-right: 10px;
 }
 
 div#footer img {
@@ -422,8 +421,6 @@ padding-left: 10px;
 div#tech li.no_bullet {
 list-style-type: none;
 }
-
-div#tech li.no_bullet
 
 /* styles for javascript unhide funciton */
 

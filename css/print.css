@@ -68,7 +68,9 @@ div#cv_navbar {
 display: none;
 }
 
-
+div#footer {
+display: none;
+}
 
 
 
@@ -82,7 +84,7 @@ color: #50A6C2;
 
 a {
 text-decoration: none;
-color: #A020F0;
+color: #383838;
 }
 
 a:hover,
@@ -91,8 +93,9 @@ a:focus {
 text-decoration: underline;	
 }
 
-
-
+div#content_wide h2 + p + a {
+display: none;
+}
 
 
 
@@ -108,8 +111,7 @@ background-color: #D6D6D6;
 
 div#intro {
 position: relative;
-width: 770px;
-margin-left: 160px;
+width: 720px;
 padding-top: 10px;
 padding-left: 10px;
 padding-right: 10px;
@@ -122,28 +124,38 @@ font-weight: bold;
 
 div#content_wide {
 position: relative;
-width: 770px;
+width: 720px;
 min-height: 500px;
-margin-top: 20px;
 padding-bottom: 20px;
-margin-left: 160px;
 padding-left: 10px;
 padding-right: 10px;
 background-color: #D6D6D6;
 }
 
+div#rss_feed_area {
+display: none;
+}
+
+li {
+padding-left: 41px;
+text-indent: -41px;
+}
+
 div#content_wide li {
 list-style-type: circle;
-line-height: 2.5;
+line-height: 2.0;
 font-family: "palatino linotype", garamond, serif;
+}
+
+div#tech li.no_bullet {
+list-style-type: none;
 }
 
 div#narrow_content {
 position: relative;
-width: 520px;
+width: 720px;
 min-height: 550px; /*adjust min-height if additional images run into the footer in #right_image_area*/
 margin-top: 20px;
-margin-left: 160px;
 padding-left: 10px;
 background-color: #D6D6D6;
 }
@@ -284,7 +296,11 @@ padding-left: 10px;
 }
 
 
-/* Design Image Gallery Styles */
+/* Design Image Styles */
+
+div#content_wide img.filler {
+display: none;
+}
 
 div#gallery_nav .left {
 position: absolute;
