@@ -187,7 +187,7 @@ background-color: #e3e3e3;
 div#content_wide li {
 list-style-type: circle;
 line-height: 1.0;
-font-family: "palatino linotype", garamond, serif;
+font-family: "Palatino Linotype", garamond, serif;
 }
 
 div#content_wide p + ul {
@@ -421,6 +421,18 @@ padding-left: 10px;
 div#tech li.no_bullet {
 list-style-type: none;
 }
+
+div#tech li.no_bullet {
+color: #383838;
+font-family: "Palatino Linotype", garamond, "Times New Roman", serif; 
+}
+
+div#tech li.no_bullet li {
+color: #383838;
+font-family: "Palatino Linotype", garamond, "Times New Roman", serif; 
+}
+
+
 
 /* styles for javascript unhide funciton */
 
