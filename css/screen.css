@@ -364,6 +364,22 @@ margin-top: 60px;
 text-align: center;
 }
 
+a.links {
+position: absolute;
+margin-top: 19px;
+margin-left: -80px;
+font-size: 150%;
+font-family: verdana, arial, "sans serif";
+color: white;
+}
+
+div#links {
+position: absolute;
+width: 770px;
+margin-top: -398px;
+margin-left: 171px;
+}
+
 /* CV styles*/
 
 h1.section_break {

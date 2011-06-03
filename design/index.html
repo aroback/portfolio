@@ -17,6 +17,15 @@
 	<script type="text/javascript" src="../java/js/scriptaculous.js?load=effects,builder"></script>
 	<script type="text/javascript" src="../java/js/lightbox.js"></script>
 
+	<script type="text/javascript">
+	 function unhide(divID) {
+ var item = document.getElementById(divID);
+ if (item) {
+ item.className=(item.className=='hidden')?'unhidden':'hidden';
+ }
+ }
+	</script>
+
 </head>
 
 <body>
@@ -107,6 +116,7 @@ first up is the print design text image-->
 
 <!--filler for future website square-->
 <img src="../images/project_images/design_filler_dark.jpg" alt="Just filler for future project space" />
+	<a class="links" href="javascript:unhide('links');">Links</a>
 
 <!--filler image to bump images to next row-->
 <img class="filler" src="../images/project_images/design_filler.jpg" alt="just a filler image" />
@@ -119,6 +129,19 @@ first up is the print design text image-->
 
 <!--golden legs running-->
 <a href="../images/project_images/glr.jpg" rel="lightbox" title="A commercial and content management site build on Drupal 6.  I was mainly responsible for the integration of social media (Facebook) and a mass mailing module (Mass Contact)."><img src="../images/project_images/glr_crop.jpg" title="Golden Legs Running" alt="Screenshot of Golden Legs Running Website" /></a>
+
+</div>
+
+<!--overlay images-->
+<div id="links" class="hidden">
+<img src="../images/project_images/web_design.jpg" alt="Web and Instructional Design" />
+<a href="http://mypages.iit.edu/~aroback/research_paper/home.html"><img src="../images/project_images/research_paper_toolbox_crop_link.jpg" title="Click to visit the Research Paper Toolbox site" alt="image link to research paper toolbox" /></a>
+<a href="javascript:unhide('links');"><img src="../images/project_images/thumbs.jpg" title="Click to return to thumbnail images, then click on an image to see a larger picture and learn more." alt="image link to go back to thumbnails" /></a>
+<img class="filler" src="../images/project_images/design_filler.jpg" alt="just a filler image" />
+<a href="http://mypages.iit.edu/~aroback/realistic_research/1_intro.html"><img src="../images/project_images/realistic_research_crop_link.jpg" title="Click to visit the Realistic Research site" alt="Realistic Research" /></a>
+<img src="../images/project_images/design_filler_dark.jpg" alt="Just filler for future project space" />
+<a href="http://goldenlegsrunning.com/"><img src="../images/project_images/glr_crop_link.jpg" title="click to visit GoldenLegsRunning.com" alt="Golden Legs Running" /></a>
+<img class="filler" src="../images/project_images/design_filler.jpg" alt="just a filler image" />
 
 </div>
 
