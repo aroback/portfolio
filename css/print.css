@@ -136,9 +136,12 @@ div#rss_feed_area {
 display: none;
 }
 
+ul {
+padding-left: 50px;
+}
+
 li {
-padding-left: 41px;
-text-indent: -41px;
+padding-left: 21px;
 }
 
 div#content_wide li {
