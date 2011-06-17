@@ -154,6 +154,10 @@ div#tech li.no_bullet {
 list-style-type: none;
 }
 
+div#education li.no_bullet {
+list-style-type: none;
+}
+
 div#tech li.no_bullet {
 color: #383838;
 font-family: "Palatino Linotype", garamond, "Times New Roman", serif; 
