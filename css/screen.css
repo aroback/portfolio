@@ -367,7 +367,9 @@ text-align: center;
 a.links {
 position: absolute;
 margin-top: 19px;
-margin-left: -80px;
+width: 150px;
+text-align: right;
+margin-left: -160px;
 font-size: 150%;
 font-family: verdana, arial, "sans serif";
 color: white;
