@@ -48,63 +48,14 @@
 
 
 
-<div id="rss_feed_area">
+<!-- <div id="rss_feed_area"> -->
 
-<a href="http://twitter.com/andrew0writer"><img src="./images/logo_twitter_wordmark.png" alt="the Twitter wordmark-click to visit my twitter page" /></a>
-
-<?php 
-
-twitter();
-
-function twitter() {
-
-			$feed = new SimplePie();
-			$feed->enable_cache(false);	
-			$feed->set_feed_url('http://twitter.com/statuses/user_timeline/20893245.rss');
-			$feed->force_feed(true);
-			$feed->handle_content_type();
-			$feed->init();
+<!-- <a href="http://twitter.com/andrew0writer"><img src="./images/logo_twitter_wordmark.png" alt="the Twitter wordmark-click to visit my twitter page" /></a> -->
 
 
-		if($feed->error()) {
-  /*If there's an error message, spit it out and stop*/
-  print "<p class=\"tweet\">".$feed->error()."</p>
-  <p><strong>Fail Whale. Check back when Twitter is working again.</strong></p>";
-}
-
-		else {
-			for($i=0; $i < 5; $i++) {
-			$i < 5;
-			$item = $feed->get_item($i);
-			$tweet = substr($item->get_title(), 15);
-		$tweetdate = $item->get_date('F j');
-		$tweetday = $item->get_date('j');
-		$ksd = date('j');
-		  if ($tweetday==$ksd) { $tweetdate = "Today"; }
-		  else if ($tweetday==($ksd-1)) { $tweetdate = "yesterday"; }
-		  else { $tweetdate = "On " . $tweetdate; }
-		$tweettime = $item->get_date('g\:i a');
-			
-			
-		$twsearch = array(
-		'%((www\.|(http|https)+\:\/\/)[_.a-zA-Z0-9-]+\.[a-zA-Z0-9\/_:@=.+?,##\%&~-]*[^.|\'|\# |!|\(|?|,| |>|<|;|\)])%',
-				  '|@([\w_]+)|',
-				  '|#([\w_]+)|'
-		);
-		$twreplace = array(
-		  '<a href="$1">$1</a>',
-		  '<a href="http://twitter.com/$1">@$1</a>',
-		  '<a href="http://twitter.com/search?q=%23$1">#$1</a>'
-		);
-		$tweet = preg_replace($twsearch, $twreplace, $tweet);
-			print "<p class=\"twitter\">".$tweet."</p><p class=\"twitdate\">".$tweetdate." at ".$tweettime."</p>";
-			}
-			}
-			}
-		?>
 		
 
-</div>
+<!-- </div> -->
 <div id="narrow_content">
 	<h2>About Me</h2>
 		<p>I am a Ph.D. candidate in Technical Communication at the <a href="http://iit.edu">Illinois Institute of Technology</a> and a graduate assistant in the <a href="http://www.iit.edu/csl/hum/">Lewis Department of Humanities.</a>  My goal is to obtain a tenure-track appointment at a four year university.</p>
