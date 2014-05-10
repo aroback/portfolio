@@ -1,0 +1,66 @@
+/* LimeSurvey styles /*
+/* Styles for special notices related to LimeSurvey participants */
+
+* {
+	font-family: Verdana, Arial;
+	}
+
+#page {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#content_area {
+	width: 600px;
+	padding: 20px;
+	border: solid gray 1px;
+	}
+	
+h1 {
+	height: 35px;
+	text-align: center;
+	width: 621px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	background-color: rgb(238, 246, 255);
+	font-weight: bold;
+	font-size: 18px;
+	}
+
+h2 {
+	font-weight: bold;
+	padding-top: 30px;
+	font-size: 16px;
+	}
+	
+p {
+	color: rgb(29, 45, 69);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding-top: 5px;
+	}
+
+#button {
+	width: 300px;
+	margin-top: 30px;
+	border: solid black 2px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: rgb(238, 246, 255);
+	padding: 15px;
+	}
+	
+a {
+	text-decoration: none;
+	color: rgb(129, 157, 38);
+	}
+	
+li {
+	list-style: circle;
+	margin-left: 35px;
+	padding-left: 5px;
+	}
+	
