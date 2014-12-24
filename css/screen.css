@@ -407,6 +407,13 @@ border-color: #50A6C2;
 padding-left: 10px;
 }
 
+div#other_academic {
+border-top: 3px solid;
+border-left: 1px solid;
+border-color: #50A6C2;
+padding-left: 10px;
+}
+
 div#tutor {
 border-top: 3px solid;
 border-left: 1px solid;
